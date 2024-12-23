@@ -1,0 +1,9 @@
+Q2.Write a brief explanation of the changes you made.
+
+Changes Made:
+Error Handling: Replaced ValueError in the create_item function with HTTPException to provide proper HTTP error responses with a status code and message.
+In-Memory Storage: Added a dictionary items to store items created using their IDs as keys.
+get_item_by_id Implementation: Implemented the get_item_by_id function to fetch items by their ID, raising a 404 error if the item is not found.
+ID Assignment: Added logic to assign unique IDs to items when created.
+Return Format: Updated responses to include the item ID alongside the name and price.
+These changes ensure the app handles errors gracefully, supports data retrieval, and maintains in-memory storage for created items. Let me know if you'd like further explanations or enhancements!
